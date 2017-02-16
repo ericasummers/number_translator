@@ -22,6 +22,26 @@
 
             $this->assertEquals("fifteen", $result);
         }
+
+        function test_translate_twoDigitNumber_aboveTwenty()
+        {
+            $test_NumberTranslator = new NumberTranslator;
+            $input = 35;
+
+            $result = $test_NumberTranslator->translate($input);
+
+            $this->assertEquals("thirty-five", $result);
+        }
+
+        // function test_translate_threeDigitNumber()
+        // {
+        //     $test_NumberTranslator = new NumberTranslator;
+        //     $input = 150;
+        //
+        //     $result = $test_NumberTranslator->translate($input);
+        //
+        //     $this->assertEquals("one hundred and fifty", $result);
+        // }
     }
 
 ?>
