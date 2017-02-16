@@ -33,15 +33,15 @@
             $this->assertEquals("thirty-five", $result);
         }
 
-        // function test_translate_threeDigitNumber()
-        // {
-        //     $test_NumberTranslator = new NumberTranslator;
-        //     $input = 150;
-        //
-        //     $result = $test_NumberTranslator->translate($input);
-        //
-        //     $this->assertEquals("one hundred and fifty", $result);
-        // }
+        function test_translate_threeDigitNumber()
+        {
+            $test_NumberTranslator = new NumberTranslator;
+            $input = 151;
+
+            $result = $test_NumberTranslator->translate($input);
+
+            $this->assertEquals("one hundred and fifty-one", $result);
+        }
     }
 
 ?>
