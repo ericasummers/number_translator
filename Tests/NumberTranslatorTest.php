@@ -12,6 +12,16 @@
 
             $this->assertEquals("five", $result);
         }
+
+        function test_translate_twoDigitNumber()
+        {
+            $test_NumberTranslator = new NumberTranslator;
+            $input = 15;
+
+            $result = $test_NumberTranslator->translate($input);
+
+            $this->assertEquals("fifteen", $result);
+        }
     }
 
 ?>
