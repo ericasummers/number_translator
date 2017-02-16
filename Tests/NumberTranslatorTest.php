@@ -42,6 +42,16 @@
 
             $this->assertEquals("one hundred and fifty-one", $result);
         }
+
+        function test_translate_threeDigitNumberWithZero()
+        {
+            $test_NumberTranslator = new NumberTranslator;
+            $input = 150;
+
+            $result = $test_NumberTranslator->translate($input);
+
+            $this->assertEquals("one hundred and fifty", $result);
+        }
     }
 
 ?>

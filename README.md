@@ -13,8 +13,9 @@ Create a webpage that translates numbers in numeric form into written words. For
 |--------|-----|------|
 | Program translates a single digit number | 5 | "five" |
 | Program translates a two digit number | 15 | "fifteen" |
-| Program translates a two digit number over twenty | 35 | "thirty five" |
-| Program translates a three digit number | 150 | "one hundred and fifty" |
+| Program translates a two digit number over twenty | 35 | "thirty-five" |
+| Program translates a three digit number with no 0s | 151 | "one hundred and fifty-one" |
+| Program translates a three digit number with 0s | 150 | "one hundred and fifty" |
 
 
 &nbsp;
