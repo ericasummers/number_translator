@@ -60,7 +60,7 @@
 
             $result = $test_NumberTranslator->translate($input);
 
-            $this->assertEquals("one-thousand, five-hundred and fifty-five", $result);
+            $this->assertEquals("one thousand five hundred and fifty-five", $result);
         }
     }
 
