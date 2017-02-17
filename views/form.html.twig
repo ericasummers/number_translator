@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/styles.css" type="text/css">
+        <title>Number Translator</title>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Number Translator</h1>
+            </header>
+            <p>Enter a number to find out how to write it in text form!</p>
+
+            <form action="/result" method="post">
+                <div class="form-group">
+                    <label for="number">Enter a number between 1 and 999:</label>
+                    <input id="number" type="number" name="number">
+                </div>
+                <button class="btn btn-info" type="submit">CHECK IT!</button>
+            </form>
+        </div>
+    </body>
+</html>

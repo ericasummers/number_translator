@@ -52,6 +52,16 @@
 
             $this->assertEquals("one hundred and fifty", $result);
         }
+
+        function test_translate_fourDigitNumber()
+        {
+            $test_NumberTranslator = new NumberTranslator;
+            $input = 1555;
+
+            $result = $test_NumberTranslator->translate($input);
+
+            $this->assertEquals("one-thousand, five-hundred and fifty-five", $result);
+        }
     }
 
 ?>
